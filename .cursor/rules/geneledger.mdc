@@ -1,0 +1,46 @@
+---
+description: GeneLedger development and learning rules
+alwaysApply: true
+---
+
+# Project
+GeneLedger is a 3-week AWS bioinformatics project focused
+on public genomic data, provenance, and agent reliability.
+
+# Development Rules
+Before implementing a feature:
+1. Does an existing solution already do this?
+2. Can we reuse it?
+3. What limitation can we actually demonstrate?
+4. Is solving that limitation necessary?
+5. How will we measure improvement?
+
+# Learning Rules
+- Teach concepts only when needed for implementation.
+- Limit theory to 30 minutes per topic.
+- Prioritize hands-on coding and testing.
+- Explain biological terms in beginner-friendly language.
+- Implement one feature at a time.
+- Do not generate the entire application at once.
+
+# Engineering Rules
+- Use Python 3.13, uv, and pytest.
+- Prefer existing libraries and AWS-native services.
+- Preserve raw data and source metadata.
+- Write small, testable functions.
+- Never invent genomic mappings.
+- Use public data only.
+- No clinical recommendations.
+- Do not deploy AWS resources without approval.
+
+# Working Style
+Before coding, provide:
+1. Goal
+2. Files to modify
+3. Acceptance criteria
+
+After coding, provide:
+1. What changed
+2. How to test
+3. What I learned
+4. Next small task
